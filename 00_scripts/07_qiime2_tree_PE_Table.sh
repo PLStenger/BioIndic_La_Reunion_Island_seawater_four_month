@@ -4,8 +4,8 @@
 ### 16S ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_16S
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_16S/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_16S
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_16S/visual
 TMPDIR=/scratch_vol0
 
 # Make the directory (mkdir) only if not existe already(-p)
@@ -61,8 +61,8 @@ qiime tools export --input-path tree/masked-aligned-RepSeq.qza --output-path exp
 ### 18S ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_18S
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_18S/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_18S
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_18S/visual
 TMPDIR=/scratch_vol0
 
 # Make the directory (mkdir) only if not existe already(-p)
@@ -118,8 +118,8 @@ qiime tools export --input-path tree/masked-aligned-RepSeq.qza --output-path exp
 ### ITS ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_ITS
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_ITS/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_ITS
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_ITS/visual
 TMPDIR=/scratch_vol0
 
 # Make the directory (mkdir) only if not existe already(-p)
@@ -175,8 +175,8 @@ qiime tools export --input-path tree/masked-aligned-RepSeq.qza --output-path exp
 ### TUFA ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_TUFA
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_TUFA/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_TUFA
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_TUFA/visual
 TMPDIR=/scratch_vol0
 
 # Make the directory (mkdir) only if not existe already(-p)
