@@ -4,13 +4,13 @@
 ### 16S ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_16S
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/visual/Original_reads_16S
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_16S
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/visual/Original_reads_16S
 
 # Créer le répertoire de sortie si non existant (-p)
 mkdir -p $OUTPUT
 
-METADATA=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files/sample-metadata.tsv
+METADATA=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files/sample-metadata.tsv
 # Directory pour les fichiers temporaires
 TMPDIR=/scratch_vol0
 
@@ -78,13 +78,13 @@ qiime tools export --input-path visual/ConRepSeq.qzv --output-path export/visual
 ### ITS ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_ITS
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/visual/Original_reads_ITS
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_ITS
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/visual/Original_reads_ITS
 
 # Créer le répertoire de sortie si non existant (-p)
 mkdir -p $OUTPUT
 
-METADATA=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files/sample-metadata.tsv
+METADATA=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files/sample-metadata.tsv
 # Directory pour les fichiers temporaires
 TMPDIR=/scratch_vol0
 
@@ -153,13 +153,13 @@ qiime tools export --input-path visual/ConRepSeq.qzv --output-path export/visual
 ### 18S ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_18S
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/visual/Original_reads_18S
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_18S
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/visual/Original_reads_18S
 
 # Créer le répertoire de sortie si non existant (-p)
 mkdir -p $OUTPUT
 
-METADATA=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files/sample-metadata.tsv
+METADATA=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files/sample-metadata.tsv
 # Directory pour les fichiers temporaires
 TMPDIR=/scratch_vol0
 
@@ -227,13 +227,13 @@ qiime tools export --input-path visual/ConRepSeq.qzv --output-path export/visual
 ### TUFA ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_TUFA
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/visual/Original_reads_TUFA
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_TUFA
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/visual/Original_reads_TUFA
 
 # Créer le répertoire de sortie si non existant (-p)
 mkdir -p $OUTPUT
 
-METADATA=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files/sample-metadata.tsv
+METADATA=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files/sample-metadata.tsv
 # Directory pour les fichiers temporaires
 TMPDIR=/scratch_vol0
 
