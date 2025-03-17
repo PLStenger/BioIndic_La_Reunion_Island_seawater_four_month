@@ -4,10 +4,10 @@
 ### 16S ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_16S
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_16S/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_16S
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_16S/visual
 
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: perform diversity metrics and rarefaction
@@ -364,10 +364,10 @@ qiime tools export --input-path pcoa/PCoA-weighted_unifrac.qza --output-path exp
 ####################################################################################
 
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_18S
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_18S/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_18S
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_18S/visual
 
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: perform diversity metrics and rarefaction
@@ -702,10 +702,10 @@ qiime tools export --input-path pcoa/PCoA-weighted_unifrac.qza --output-path exp
 ### ITS ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_ITS
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_ITS/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_ITS
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_ITS/visual
 
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: perform diversity metrics and rarefaction
@@ -1049,10 +1049,10 @@ qiime tools export --input-path pcoa/PCoA-weighted_unifrac.qza --output-path exp
 ####################################################################################
 
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_TUFA
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_TUFA/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_TUFA
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_TUFA/visual
 
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: perform diversity metrics and rarefaction
