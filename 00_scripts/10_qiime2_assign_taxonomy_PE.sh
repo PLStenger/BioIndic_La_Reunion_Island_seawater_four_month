@@ -8,10 +8,10 @@ echo ###############################################################
 echo 16S
 echo ###############################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_16S
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_16S/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_16S
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_16S/visual
 
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: classify reads by taxon using a fitted classifier
@@ -54,11 +54,11 @@ echo $TMPDIR
 ######
 ######qiime tools import --type 'FeatureData[Taxonomy]' \
 ######  --input-format HeaderlessTSVTaxonomyFormat \
-######  --input-path /Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/07_BioIndic_La_Reunion_Island_Lagoon_II/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files/silva_nr99_v138_wSpecies_train_set.fa \
+######  --input-path /Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/07_BioIndic_La_Reunion_Island_seawater_four_month/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files/silva_nr99_v138_wSpecies_train_set.fa \
 ######  --output-path taxonomy/RefTaxo.qza
 ######
 ######qiime tools import --type 'FeatureData[Sequence]' \
-######  --input-path /Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/07_BioIndic_La_Reunion_Island_Lagoon_II/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files/silva_nr99_v138_wSpecies_train_set.fa \
+######  --input-path /Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/07_BioIndic_La_Reunion_Island_seawater_four_month/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files/silva_nr99_v138_wSpecies_train_set.fa \
 ######  --output-path taxonomy/DataSeq.qza
 ######
 ######   
@@ -110,8 +110,8 @@ echo $TMPDIR
 # See this thread https://forum.qiime2.org/t/silva-138-classifiers/13131 (found because of this thread : https://forum.qiime2.org/t/silva-138-for-qiime2/12957/4)
 
 #cp $DATABASE/SILVA-138-SSURef-full-length-classifier.qza taxonomy/Classifier.qza
-scp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/SILVA-138-SSURef-Full-Seqs.qza  /scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_16S/taxonomy/DataSeq.qza
-scp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/Silva-v138-full-length-seq-taxonomy.qza /scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_16S/taxonomy/RefTaxo.qza
+scp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/SILVA-138-SSURef-Full-Seqs.qza  /scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_16S/taxonomy/DataSeq.qza
+scp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/Silva-v138-full-length-seq-taxonomy.qza /scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_16S/taxonomy/RefTaxo.qza
 
 # Script Nolwenn
 #R1_Primers = c("GTGCCAGCMGCCGCGGTAA","GTGYCAGCMGCCGCGGTAA")
@@ -224,10 +224,10 @@ echo ###############################################################
 echo 18S
 echo ###############################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_18S
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_18S/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_18S
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_18S/visual
 
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: classify reads by taxon using a fitted classifier
@@ -266,11 +266,11 @@ echo $TMPDIR
 ######
 ######qiime tools import --type 'FeatureData[Taxonomy]' \
 ######  --input-format HeaderlessTSVTaxonomyFormat \
-######  --input-path /Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/07_BioIndic_La_Reunion_Island_Lagoon_II/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files/silva_nr99_v138_wSpecies_train_set.fa \
+######  --input-path /Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/07_BioIndic_La_Reunion_Island_seawater_four_month/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files/silva_nr99_v138_wSpecies_train_set.fa \
 ######  --output-path taxonomy/RefTaxo.qza
 ######
 ######qiime tools import --type 'FeatureData[Sequence]' \
-######  --input-path /Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/07_BioIndic_La_Reunion_Island_Lagoon_II/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files/silva_nr99_v138_wSpecies_train_set.fa \
+######  --input-path /Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/07_BioIndic_La_Reunion_Island_seawater_four_month/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files/silva_nr99_v138_wSpecies_train_set.fa \
 ######  --output-path taxonomy/DataSeq.qza
 ######
 ######   
@@ -322,8 +322,8 @@ echo $TMPDIR
 # See this thread https://forum.qiime2.org/t/silva-138-classifiers/13131 (found because of this thread : https://forum.qiime2.org/t/silva-138-for-qiime2/12957/4)
 
 #cp $DATABASE/SILVA-138-SSURef-full-length-classifier.qza taxonomy/Classifier.qza
-scp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/SILVA-138-SSURef-Full-Seqs.qza  /scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_18S/taxonomy/DataSeq.qza
-scp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/Silva-v138-full-length-seq-taxonomy.qza /scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_18S/taxonomy/RefTaxo.qza
+scp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/SILVA-138-SSURef-Full-Seqs.qza  /scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_18S/taxonomy/DataSeq.qza
+scp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/Silva-v138-full-length-seq-taxonomy.qza /scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_18S/taxonomy/RefTaxo.qza
 
 # Script Nolwenn
 #R1_Primers = c("GTGCCAGCMGCCGCGGTAA","GTGYCAGCMGCCGCGGTAA")
@@ -438,10 +438,10 @@ echo ITS
 echo ###############################################################
 
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_ITS
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_ITS/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_ITS
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_ITS/visual
 
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: classify reads by taxon using a fitted classifier
@@ -609,10 +609,10 @@ echo TUFA
 echo ###############################################################
 
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_TUFA
-OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_TUFA/visual
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_TUFA
+OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_TUFA/visual
 
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: classify reads by taxon using a fitted classifier
