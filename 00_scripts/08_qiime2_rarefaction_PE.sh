@@ -4,8 +4,8 @@
 ### 16S ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_16S
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_16S
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: rarefy a feature table to compare alpha/beta diversity results
@@ -22,7 +22,7 @@ conda activate qiime2-2021.4
 export TMPDIR='/scratch_vol0/fungi'
 echo $TMPDIR
 
-# Note: max-depth should be chosen based on ConTable.qzv (or on /scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/export/visual/ConTable/sample-frequency-detail.csv)
+# Note: max-depth should be chosen based on ConTable.qzv (or on /scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/export/visual/ConTable/sample-frequency-detail.csv)
 # But here on Table.qzv
 
 qiime diversity alpha-rarefaction \
@@ -67,8 +67,8 @@ qiime tools export --input-path visual/alpha-rarefaction.qzv --output-path expor
 ####################################################################################
 
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_18S
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_18S
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: rarefy a feature table to compare alpha/beta diversity results
@@ -85,7 +85,7 @@ conda activate qiime2-2021.4
 export TMPDIR='/scratch_vol0/fungi'
 echo $TMPDIR
 
-# Note: max-depth should be chosen based on ConTable.qzv (or on /scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/export/visual/ConTable/sample-frequency-detail.csv)
+# Note: max-depth should be chosen based on ConTable.qzv (or on /scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/export/visual/ConTable/sample-frequency-detail.csv)
 # But here on Table.qzv
 
 qiime diversity alpha-rarefaction \
@@ -129,8 +129,8 @@ qiime tools export --input-path visual/alpha-rarefaction.qzv --output-path expor
 ### ITS ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_ITS
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_ITS
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: rarefy a feature table to compare alpha/beta diversity results
@@ -147,7 +147,7 @@ conda activate qiime2-2021.4
 export TMPDIR='/scratch_vol0/fungi'
 echo $TMPDIR
 
-# Note: max-depth should be chosen based on ConTable.qzv (or on /scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/export/visual/ConTable/sample-frequency-detail.csv)
+# Note: max-depth should be chosen based on ConTable.qzv (or on /scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/export/visual/ConTable/sample-frequency-detail.csv)
 # But here on Table.qzv
 
 qiime diversity alpha-rarefaction \
@@ -191,8 +191,8 @@ qiime tools export --input-path visual/alpha-rarefaction.qzv --output-path expor
 ### TufA ###
 ####################################################################################
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/Original_reads_TUFA
-DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/98_database_files
+WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_TUFA
+DATABASE=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/98_database_files
 TMPDIR=/scratch_vol0
 
 # Aim: rarefy a feature table to compare alpha/beta diversity results
@@ -209,7 +209,7 @@ conda activate qiime2-2021.4
 export TMPDIR='/scratch_vol0/fungi'
 echo $TMPDIR
 
-# Note: max-depth should be chosen based on ConTable.qzv (or on /scratch_vol0/fungi/BioIndic_La_Reunion_Island_Lagoon_II/05_QIIME2/export/visual/ConTable/sample-frequency-detail.csv)
+# Note: max-depth should be chosen based on ConTable.qzv (or on /scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/export/visual/ConTable/sample-frequency-detail.csv)
 # But here on Table.qzv
 
 #   --i-table core/ConTable.qza \
