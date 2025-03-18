@@ -42,33 +42,12 @@ echo $TMPDIR
     # Aim: Applies a collection of diversity metrics to a feature table
     # Use: qiime diversity core-metrics-phylogenetic [OPTIONS]
 
-    # 20 samples deleted:
-
-# DEC-LIV-SED-2,820.0
-# FEB-TOB-SED-2,589.0
-# FEB-TOB-SED-3,548.0
-# OCT-LIV-SED-2,529.0
-# APR-TOB-SED-3,485.0
-# JUN-COP-SED-3,343.0
-# OCT-COP-SED-1,285.0
-# AUG-COP-SED-3,278.0
-# APR-LIV-SED-2,276.0
-# FEB-COP-SED-3,232.0
-# OCT-LIV-SED-3,196.0
-# DEC-COP-SED-2,0.0
-# DEC-COP-SED-1,0.0
-# AUG-LIV-SED-1,0.0
-# APR-TOB-SED-1,0.0
-# OCT-TOB-SED-1,0.0
-# OCT-LIV-SED-1,0.0
-# DEC-TOB-SED-3,0.0
-# DEC-TOB-SED-2,0.0
-# FEB-COP-SED-1,0.0
+###### NO SAMPLES DELETED
    
 qiime diversity core-metrics-phylogenetic \
        --i-phylogeny tree/rooted-tree.qza \
        --i-table core/Table.qza \
-       --p-sampling-depth 1000 \
+       --p-sampling-depth 3056 \
        --m-metadata-file $DATABASE/sample-metadata.tsv \
        --o-rarefied-table core/RarTable.qza \
        --o-observed-features-vector core/Vector-observed_asv.qza \
@@ -402,12 +381,12 @@ echo $TMPDIR
     # Aim: Applies a collection of diversity metrics to a feature table
     # Use: qiime diversity core-metrics-phylogenetic [OPTIONS]
     
-# 1 sample deleted: DEC-LIV-SED-1,2676.0
+###### NO sample deleted
 
 qiime diversity core-metrics-phylogenetic \
        --i-phylogeny tree/rooted-tree.qza \
        --i-table core/Table.qza \
-       --p-sampling-depth 3678 \
+       --p-sampling-depth 8801 \
        --m-metadata-file $DATABASE/sample-metadata.tsv \
        --o-rarefied-table core/RarTable.qza \
        --o-observed-features-vector core/Vector-observed_asv.qza \
@@ -740,21 +719,14 @@ echo $TMPDIR
     # Aim: Applies a collection of diversity metrics to a feature table
     # Use: qiime diversity core-metrics-phylogenetic [OPTIONS]
     
-# 9 samples deleted: 
-# OCT-TOB-WAT-3,1810.0
-# JUN-TOB-WAT-2,1733.0
-# JUN-TOB-WAT-1,1611.0
-# OCT-TOB-WAT-2,1587.0
-# OCT-COP-WAT-2,1524.0
-# OCT-LIV-WAT-2,1509.0
-# JUN-LIV-WAT-2,1449.0
+# 2 samples deleted: 
 # OCT-COP-WAT-3,1206.0
 # OCT-TOB-WAT-1,887.0
 
 qiime diversity core-metrics-phylogenetic \
        --i-phylogeny tree/rooted-tree.qza \
        --i-table core/Table.qza \
-       --p-sampling-depth 1855 \
+       --p-sampling-depth 1427 \
        --m-metadata-file $DATABASE/sample-metadata.tsv \
        --o-rarefied-table core/RarTable.qza \
        --o-observed-features-vector core/Vector-observed_asv.qza \
@@ -1087,26 +1059,20 @@ echo $TMPDIR
     # Aim: Applies a collection of diversity metrics to a feature table
     # Use: qiime diversity core-metrics-phylogenetic [OPTIONS]
 
-# 13 samples deleted:
+# 7 samples deleted:
     
+# OCT-TOB-WAT-1,3223.0
+# AUG-LIV-WAT-3,3103.0
 # APR-LIV-WAT-2,2338.0
-# FEB-LIV-WAT-1,1762.0
-# OCT-TOB-WAT-2,1704.0
-# DEC-COP-SED-3,1684.0
-# AUG-TOB-WAT-3,1537.0
-# APR-LIV-SED-3,1534.0
-# FEB-COP-WAT-2,1141.0
-# DEC-TOB-SED-3,598.0
-# JUN-LIV-WAT-3,276.0
+# OCT-TOB-WAT-2,1674.0
+# AUG-TOB-WAT-3,1545.0
+# JUN-LIV-WAT-3,282.0
 # APR-LIV-WAT-1,81.0
-# FEB-TOB-WAT-3,0.0
-# FEB-COP-WAT-3,0.0
-# FEB-TOB-WAT-2,0.0
 
 qiime diversity core-metrics-phylogenetic \
        --i-phylogeny tree/rooted-tree.qza \
        --i-table core/Table.qza \
-       --p-sampling-depth 2500 \
+       --p-sampling-depth 3300 \
        --m-metadata-file $DATABASE/sample-metadata.tsv \
        --o-rarefied-table core/RarTable.qza \
        --o-observed-features-vector core/Vector-observed_asv.qza \
