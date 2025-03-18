@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/03_cleaned_data/Original_reads_16S
+WORKING_DIRECTORY=/home/fungi/BioIndic_La_Reunion_Island_Lagoon_II/03_cleaned_data/Original_reads_16S
 OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_16S
 
 # Make the directory (mkdir) only if not existe already(-p)
@@ -45,7 +45,7 @@ cd $OUTPUT
 # qiime tools export --input-path visual/demux.qzv --output-path export/visual/demux
 # qiime tools export --input-path core/demux.qza --output-path export/core/demux
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/03_cleaned_data/Original_reads_18S
+WORKING_DIRECTORY=/home/fungi/BioIndic_La_Reunion_Island_Lagoon_II/03_cleaned_data/Original_reads_18S
 OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_18S
 
 # Make the directory (mkdir) only if not existe already(-p)
@@ -91,7 +91,7 @@ cd $OUTPUT
 # qiime tools export --input-path core/demux.qza --output-path export/core/demux
 
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/03_cleaned_data/Original_reads_ITS
+WORKING_DIRECTORY=/home/fungi/BioIndic_La_Reunion_Island_Lagoon_II/03_cleaned_data/Original_reads_ITS
 OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_ITS
 
 # Make the directory (mkdir) only if not existe already(-p)
@@ -137,7 +137,7 @@ cd $OUTPUT
 # qiime tools export --input-path core/demux.qza --output-path export/core/demux
 
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/03_cleaned_data/Original_reads_TUFA
+WORKING_DIRECTORY=/home/fungi/BioIndic_La_Reunion_Island_Lagoon_II/03_cleaned_data/Original_reads_TUFA
 OUTPUT=/scratch_vol0/fungi/BioIndic_La_Reunion_Island_seawater_four_month/05_QIIME2/Original_reads_TUFA
 
 # Make the directory (mkdir) only if not existe already(-p)
