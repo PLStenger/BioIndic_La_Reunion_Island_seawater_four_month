@@ -20,7 +20,7 @@ blastx -query "$INPUT_FASTA" \
   -remote \
   -out "$OUTPUT_BLAST" \
   -evalue "$EVALUE" \
-  -num_threads "$NUM_THREADS" \
+ # -num_threads "$NUM_THREADS" \
   -max_target_seqs "$MAX_TARGET_SEQS" \
   -outfmt "$FORMAT"
 
