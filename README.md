@@ -138,5 +138,6 @@ For install QIIME2, please refer to http://qiime.org/install/install.html
     
     time nohup bash 13_PICRUSt2.sh &> 13_PICRUSt2.out
     
+    time nohup bash 98_blastx_TUFA.sh &> 98_blastx_TUFA.out
     
     time nohup bash 99_junk.sh &> 99_junk.out
